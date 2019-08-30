@@ -1,0 +1,37 @@
+* Zaiste's Emacs Theme
+
+This is the theme I use for the [[https://zaiste.net/doomcasts/][Doomcasts]] (short screencasts about Emacs Doom).
+It is a spin-off from the [[https://github.com/hlissner/emacs-doom-themes][Doom One Light]] theme and remotly inspired by [[https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light][Bluloco]]
+by [[https://uloco.github.io/][Umut Topuzoğlu]].
+
+This theme is *not finished* and work in progress. I'm releasing it as-is, given
+the (huge) amounts of comments on my Doomcasts videos. ;)
+
+** Install
+
+Put the ~zaiste-theme~ inside your ~/.doom.d/themes/~ and then add the
+following line to your ~config.el~:
+
+#+begin_src elisp
+(setq
+ doom-theme 'zaiste
+ ;; the rest of your config ...
+ )
+#+end_src
+
+I'm still figuring out the how to create an Emacs (or an Emacs Doom) theme. Feel
+free to issue a PR with a proper, more idiomatic method.
+
+** Nitty-gritty
+
++ I use *Iosevka Term SS04* as the main font, the ~light~ flavour
++ My Org bullet point is this: ~⁖~
+
+** Sneak Peek
+
+*** In Org Mode
+
+@@html:<img src="/screenshots/zaiste-emacs-theme-1.png" alt="Zaiste Theme in Org Mode"/>@@
+
+*** In Clojure
+*** In Haskell
